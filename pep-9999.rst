@@ -29,7 +29,7 @@ In the context of web development Python can do more than providing
 REST APIs via http.  With the trend to Server-Side-Rendering,
 we face a fundamental question:
 
-How to create save HTML with Python?
+How to create safe HTML with Python?
 
 If you use the FrOW pattern (HTML fragments over the wire) [#FrOW]_, then you
 will be writing small methods returning small HTML fragments.
@@ -199,7 +199,7 @@ Template Literals get created by Python developers, not by users.  If you want t
 templates available for users (for example if you develop a CMS), then please use a
 different solution.
 
-Out of scope: Save escaping of HTML
+Out of scope: Safe escaping of HTML
 ===================================
 
 Template Literals are about creating a data structure. 
